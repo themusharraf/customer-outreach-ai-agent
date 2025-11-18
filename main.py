@@ -116,14 +116,14 @@ crew = Crew(
     tasks=[lead_profiling_task,
            personalized_outreach_task],
 
-    verbose=2,
+    verbose=True,
     memory=True
 )
 
 inputs = {
-    "lead_name": "DeepLearningAI",
-    "industry": "Onlayn Ta’lim Platformasi",
-    "key_decision_maker": "Endryu Ng",
+    "lead_name": "Arenixuz",
+    "industry": "Esports platforma",
+    "key_decision_maker": "Musharraf Ibragimov",
     "position": "Bosh direktor (CEO)",
     "milestone": "mahsulotni ishga tushirish"
 }

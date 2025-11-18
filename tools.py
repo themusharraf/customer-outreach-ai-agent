@@ -1,5 +1,5 @@
 from crewai_tools import DirectoryReadTool, FileReadTool, SerperDevTool
-from crewai_tools import BaseTool
+from crewai.tools import BaseTool
 
 directory_read_tool = DirectoryReadTool(directory='./instructions')
 file_read_tool = FileReadTool()
